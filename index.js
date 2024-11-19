@@ -15,7 +15,7 @@ const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms))
 //-----------------------------------------------------------------------------------
 async function welcome () {
     const rainbowTitle = chalkAnimation.rainbow(
-        'Who wants to be a Programmer? \n'
+        'Welcome to TerminalTrivia\n'
     )
 
     await sleep()
